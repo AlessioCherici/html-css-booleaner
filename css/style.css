@@ -1,14 +1,15 @@
 .sfondo-header {
     background-color: rgb(0, 198, 247);
     background-size: 350px;
-    background-image: url(C:/Users/aless/Desktop/Github/html-css-booleaner/img/pattern.png);
+    background-image: url(C:/Users/aless/Desktop/Github/html-css-booleaner/img/pattern.png); /*<----Relative path non funziona, perche?*/
 }
 
-h5  {
-    color:lightgrey
+h5, h3 {
+    color:rgb(122, 121, 121);
 }
 
 .size{
+    margin-top: 0px;
     font-size:x-small;
 }
 
@@ -25,6 +26,25 @@ h5  {
     width: 200px;
 }
 
-#tableid table{
-    border:none;
+.tableheader {
+    background-color: rgb(0, 183, 255);
+    color:white;
 }
+
+.row1-3 {
+    background-color:rgb(159, 239, 245);
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+  }
+
+.text-block {
+    position: absolute;
+    top: 1px;
+    left: 15px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-right:0;
+  }
