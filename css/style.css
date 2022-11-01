@@ -1,0 +1,30 @@
+.sfondo-header {
+    background-color: rgb(0, 198, 247);
+    background-size: 350px;
+    background-image: url(C:/Users/aless/Desktop/Github/html-css-booleaner/img/pattern.png);
+}
+
+h5  {
+    color:lightgrey
+}
+
+.size{
+    font-size:x-small;
+}
+
+#img-logo {
+    width: 200px;
+    margin-top: 50px;
+}
+
+#Tim-1 {
+    width: 200px;
+}
+
+#tim-2 {
+    width: 200px;
+}
+
+#tableid table{
+    border:none;
+}
